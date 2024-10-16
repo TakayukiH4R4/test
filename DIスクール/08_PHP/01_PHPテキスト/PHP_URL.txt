@@ -1,0 +1,4 @@
+http://localhost/php_practice_1/index.php
+
+参照先
+C:\xampp\htdocs
