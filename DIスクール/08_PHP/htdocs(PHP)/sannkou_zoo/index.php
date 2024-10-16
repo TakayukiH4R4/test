@@ -1,1 +1,0 @@
-https://webukatu.com/wordpress/blog/36634/#PHP
