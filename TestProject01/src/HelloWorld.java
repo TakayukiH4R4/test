@@ -79,7 +79,59 @@ public class HelloWorld {
 		System.out.println(a9--);
 		System.out.println(a9--);
 		System.out.println(a9--);
+
+
+		//第７講
+		int a10 = 10;
+		if(a10 < 20) {
+			System.out.println("A");
+		}
+
+		String a11 = "山田";
+		if(a11.equals ("山田")) {
+			System.out.println(a11+"さん");
+		}
+
+		int a12 = 5;
+		if(a12 < 10 && 3 < a12) {
+			System.out.println("AA");
+		}
+
+
+		int a13 = 5;
+		if(a13 >=5 || a13<=0) {
+			System.out.println("B");
+		}
+
+
+		int a14 = 7;
+		if(a14 > 8) {
+			System.out.println("A");
+		}else if(a14 < 10) {
+			System.out.println("B");
+		}
+
+
+		int a15 = 3;
+		if(a15 >5) {
+			System.out.println("A");
+		}else{
+			System.out.println("Z") ;
+		}
+
+		int age = 35;
+		if(age < 20) {
+			System.out.println("未成年");
+		}else if(age > 80) {
+			System.out.println("高齢者");
+		}else {
+			System.out.println("成人");
+		}
+
+
+
 	}
+
 
 
 
