@@ -20,7 +20,7 @@ public static void main(String[] args) {
 	System.out.println(value);
 
 
-	String valueNull = map.get("key6"); //存在しないkeyの場合はnull)
+	String valueNull = map.get("key6"); //存在しないkeyの場合はnull
 	System.out.println(valueNull);
 
 	//mapに該当するkeyが存在するか否かチェックすることも可能
@@ -35,10 +35,6 @@ public static void main(String[] args) {
 	for(Map.Entry<String, String> e: map.entrySet()) {
 		System.out.println(e.getKey() + ":" + e.getValue());
 	}
-
-
-
-
 
 	}
 }

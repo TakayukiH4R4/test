@@ -6,12 +6,10 @@ public class SetSample {
 
 
 public static void main(String[] args) {
+Set<String> set = new HashSet<String> ();
 
-
-	Set<String> set = new HashSet<String> ();
 
 //値のセットはaddメソッドを使用
-
 	set.add("value1");
 	set.add("value2");
 	set.add("value3");
